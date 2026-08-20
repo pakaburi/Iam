@@ -12,18 +12,102 @@
   "hideBuiltin": [],
   "landmarks": [
     {
-      "missionId": "rmt-cntower",
-      "name": "CN Tower",
-      "geoOnly": true,
-      "lat": 43.642566,
-      "lng": -79.387057,
-      "elevM": 76,
-      "heightM": 553,
-      "region": "Toronto, Canada",
-      "photoQuery": "CN Tower",
-      "order": 40,
-      "enabled": true,
-      "brief": "Orbit the CN Tower."
+      "missionId": "rmt-skytree", "name": "Tokyo Skytree", "geoOnly": true,
+      "lat": 35.710063, "lng": 139.810700, "elevM": 3, "heightM": 634,
+      "region": "Tokyo, Japan", "photoQuery": "Tokyo Skytree", "order": 100, "enabled": true,
+      "brief": "Orbit the Tokyo Skytree — the world's tallest tower."
+    },
+    {
+      "missionId": "rmt-shanghai", "name": "Shanghai Tower", "geoOnly": true,
+      "lat": 31.233568, "lng": 121.505448, "elevM": 4, "heightM": 632,
+      "region": "Shanghai, China", "photoQuery": "Shanghai Tower", "order": 110, "enabled": true,
+      "brief": "Spiral up the twisting Shanghai Tower."
+    },
+    {
+      "missionId": "rmt-lotte", "name": "Lotte World Tower", "geoOnly": true,
+      "lat": 37.512500, "lng": 127.102450, "elevM": 20, "heightM": 555,
+      "region": "Seoul, South Korea", "photoQuery": "Lotte World Tower", "order": 120, "enabled": true,
+      "brief": "Orbit Seoul's tapering Lotte World Tower."
+    },
+    {
+      "missionId": "rmt-owtc", "name": "One World Trade Center", "geoOnly": true,
+      "lat": 40.712742, "lng": -74.013382, "elevM": 5, "heightM": 541,
+      "region": "New York, USA", "photoQuery": "One World Trade Center", "order": 130, "enabled": true,
+      "brief": "Circle One World Trade over Lower Manhattan."
+    },
+    {
+      "missionId": "rmt-taipei101", "name": "Taipei 101", "geoOnly": true,
+      "lat": 25.033976, "lng": 121.564468, "elevM": 12, "heightM": 508,
+      "region": "Taipei, Taiwan", "photoQuery": "Taipei 101", "order": 140, "enabled": true,
+      "brief": "Orbit the pagoda-tiered Taipei 101."
+    },
+    {
+      "missionId": "rmt-empire", "name": "Empire State Building", "geoOnly": true,
+      "lat": 40.748817, "lng": -73.985428, "elevM": 20, "heightM": 443,
+      "region": "New York, USA", "photoQuery": "Empire State Building", "order": 150, "enabled": true,
+      "brief": "Circle the Empire State Building in Midtown."
+    },
+    {
+      "missionId": "rmt-willis", "name": "Willis Tower", "geoOnly": true,
+      "lat": 41.878876, "lng": -87.635915, "elevM": 180, "heightM": 442,
+      "region": "Chicago, USA", "photoQuery": "Willis Tower Chicago", "order": 160, "enabled": true,
+      "brief": "Orbit the black monolith of Willis Tower."
+    },
+    {
+      "missionId": "rmt-burjalarab", "name": "Burj Al Arab", "geoOnly": true,
+      "lat": 25.141264, "lng": 55.185295, "elevM": 2, "heightM": 321,
+      "region": "Dubai, UAE", "photoQuery": "Burj Al Arab", "order": 170, "enabled": true,
+      "brief": "Orbit the sail-shaped Burj Al Arab over the Gulf."
+    },
+    {
+      "missionId": "rmt-shard", "name": "The Shard", "geoOnly": true,
+      "lat": 51.504500, "lng": -0.086500, "elevM": 8, "heightM": 310,
+      "region": "London, UK", "photoQuery": "The Shard London", "order": 180, "enabled": true,
+      "brief": "Orbit the glass spire of The Shard."
+    },
+    {
+      "missionId": "rmt-gatewayarch", "name": "Gateway Arch", "geoOnly": true,
+      "lat": 38.624691, "lng": -90.184776, "elevM": 140, "heightM": 192,
+      "region": "St. Louis, USA", "photoQuery": "Gateway Arch", "order": 190, "enabled": true,
+      "brief": "Sweep around the Gateway Arch on the Mississippi."
+    },
+    {
+      "missionId": "rmt-spaceneedle", "name": "Space Needle", "geoOnly": true,
+      "lat": 47.620506, "lng": -122.349274, "elevM": 60, "heightM": 184,
+      "region": "Seattle, USA", "photoQuery": "Space Needle", "order": 200, "enabled": true,
+      "brief": "Orbit the Space Needle over Seattle Center."
+    },
+    {
+      "missionId": "rmt-stpeters", "name": "St. Peter's Basilica", "geoOnly": true,
+      "lat": 41.902168, "lng": 12.453937, "elevM": 20, "heightM": 136,
+      "region": "Vatican City", "photoQuery": "St. Peter's Basilica", "order": 210, "enabled": true,
+      "brief": "Circle Michelangelo's dome above St. Peter's Square."
+    },
+    {
+      "missionId": "rmt-londoneye", "name": "London Eye", "geoOnly": true,
+      "lat": 51.503325, "lng": -0.119543, "elevM": 5, "heightM": 135,
+      "region": "London, UK", "photoQuery": "London Eye", "order": 220, "enabled": true,
+      "brief": "Orbit the London Eye on the Thames."
+    },
+    {
+      "missionId": "rmt-atomium", "name": "Atomium", "geoOnly": true,
+      "lat": 50.894941, "lng": 4.341547, "elevM": 55, "heightM": 102,
+      "region": "Brussels, Belgium", "photoQuery": "Atomium Brussels", "order": 230, "enabled": true,
+      "brief": "Weave around the crystal spheres of the Atomium."
+    },
+    {
+      "missionId": "rmt-sheikhzayed", "name": "Sheikh Zayed Grand Mosque", "geoOnly": true,
+      "lat": 24.412768, "lng": 54.474710, "elevM": 8, "heightM": 85,
+      "standoffM": 320, "eyeM": 90, "tiltDeg": -5,
+      "region": "Abu Dhabi, UAE", "photoQuery": "Sheikh Zayed Grand Mosque", "order": 240, "enabled": true,
+      "brief": "Glide over the white domes of Sheikh Zayed Grand Mosque."
+    },
+    {
+      "missionId": "rmt-hagia", "name": "Hagia Sophia", "geoOnly": true,
+      "lat": 41.008587, "lng": 28.980175, "elevM": 40, "heightM": 55,
+      "standoffM": 150, "eyeM": 60, "tiltDeg": -6,
+      "region": "Istanbul, Turkey", "photoQuery": "Hagia Sophia", "order": 250, "enabled": true,
+      "brief": "Circle the great dome and minarets of Hagia Sophia."
     }
   ]
 }
