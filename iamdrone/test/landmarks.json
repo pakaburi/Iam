@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "config": {
+    "googleApiKey": "",
+    "ionToken": "",
+    "tilesetUrl": "",
+    "freeWelcomeFlights": 99,
+    "flightGatingEnabled": false,
+    "entitlementEnabled": false,
+    "entitlementUrl": ""
+  },
+  "hideBuiltin": [],
+  "landmarks": [
+    {
+      "missionId": "rmt-cntower",
+      "name": "CN Tower",
+      "geoOnly": true,
+      "lat": 43.642566,
+      "lng": -79.387057,
+      "elevM": 76,
+      "heightM": 553,
+      "region": "Toronto, Canada",
+      "photoQuery": "CN Tower",
+      "order": 40,
+      "enabled": true,
+      "brief": "Orbit the CN Tower."
+    }
+  ]
+}
